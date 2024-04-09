@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>iPhone</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#"><img src="img\logo.png" alt="Logo do iPhone" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#down">About</a></li>
+                <li><a href="#down2">Features</a></li>
+                <li><a href="#downn">Contact us</a></li>
+               
+                   
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="img\IPhone_15_Pro_(logo).svg.png" alt="">
+                <h3 style="color:white;">Future-proof of your phone,choose iPhone.</h3>
+                <h4 id="linespace" style="color: black;">iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design,using the same alloy that spacecraft use for missions to Mars.<br> Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You’ll notice the difference the moment you pick one up.</h4>
+                <h6>Cost Rs:1,00,000</h6>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                   <h5>Choose your Favourite Colour:</h5>
+                </div>
+                <div class="content">
+                    <span id="NaturalTitanium" onclick="imgSlider('img/iphone15 pro.webp'); circleChange('#808080')"></span>
+                    <span id="BlueTitanium" onclick="imgSlider('img/iphone-15-pro-max-blue-titanium.webp'); circleChange('#708090')"></span>
+                    <span id="BlackTitanium" onclick="imgSlider('img/iphone-15-pro-max-black-titanium.webp'); circleChange('#192028')"></span>
+                    <span id="WhiteTitanium" onclick="imgSlider('img/iphone-15-pro-max-white-titanium.webp');circleChange('#ffffff')"></span>
+                    
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="img\iphone15 pro.webp" alt="Imagem do iPhone" id="phone">
+            </div>
+        </section>
+        <center>
+            <div id="down">
+                <a href="#" class="btn1">About</a>
+                
+            </div>
+        </center>
+        <div id="About"><h3>The iPhone 15 Pro is a smartphone that was announced by Apple on September 12, 2023, with pre-orders starting on September 15 and availability starting on September 22. It has a titanium design that is the same as the alloy used in spacecraft. The Pro is Apple's lightest Pro lineup ever because it has one of the highest strength-to-weight ratios of any metal.</h3>
+        </div>
+        <center>
+            <div id="down2">
+                <a href="#" class="btn2">Features</a>
+                <h1 style="color:white;"></h1>
+                
+            </div>
+        </center>
+        <h3 id="F" >The iPhone 15 Pro has many features, including:</h3>
+        <ul type="circle" id="F1">
+            <li>Display: 6.10-inch (1179x2556)</li>
+            <li>Display Processor: Apple A17 Pro</li>
+            <li>Front camera: 12MP</li>
+            <li>Rear camera: 48MP + 12MP + 12MP</li>
+            <li>RAM: 8GB</li>
+            <li>Storage: 128GB, 256GB, 512GB, 1TB</li>
+            <li>OS: iOS 17</li>
+            <li>Wireless charging: Qi2 magnetic wireless charging standard</li>
+            <li>Video recording: 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps(1179x2556)</li>
+            <li>Camera: High-quality 4K Apple ProRes video in Log color profile.</li>
+            <li>Sensors: Face ID, LiDAR Scanner, Barometer, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors</li>
+        </ul>
+        
+        <center>    
+        <div id="downn">
+            <h1 style="color:white;">Contact us</h1>
+            <!-- <h3 style="color: white;">uhuiyid7udyfi7f8wfhff8w7fwe8d7ydg</h3> -->
+           
+        </div>
+        </center>
+        
+         <!-- <div id="navigation1">
+            <ul></ul>
+            <li>Insta</li><a href="https://support.apple.com/"><img src="img\insta logo.avif" width="60px" alt="Logo do iPhone" class="logo"></a>
+         <li>IphoneCallSupport</li><a href="https://www.apple.com/in/contact/"><img src="img\call logo.jpg" width="60px" alt="Logo do iPhone" class="logo"></a>
+        <li>Facebook</li> <a href="https://www.facebook.com/AppleiPh0ne/"><img src="img\facebook logo.avif"  width="60px"alt="Logo do iPhone" class="logo"></a>
+         <li>IphoneWebsite</li><a href="https://www.apple.com/in/iphone/"><img src="img\ipone logo1.webp" width="60px" alt="Logo do iPhone" class="logo"></a>
+            </div>
+            </div>
+        </nav> -->
+        <div class="contact-container">
+        
+          
+            <p>Follow us on social media:</p>
+          
+            <div class="social-links">
+              <a href="https://support.apple.com/" target="_blank">Instagram <img src="img\insta logo.avif" width="50px"></a>
+              <a href="https://www.apple.com/in/contact/" target="_blank">IphoneCallSupport <img src="img\call logo.jpg" width="50px"></a>
+              <a href="https://www.facebook.com/AppleiPhone/" target="_blank">Facebook <img src="img\facebook logo.avif"  width="60px"alt="Logo do iPhone" class="logo"></a>
+              <a href="https://www.apple.com/in/iphone/" target="_blank">IphoneWebsite <img src="img\ipone logo1.webp" width="60px"></a>
+            </div>
+          </div>
+        
+    
+         
+         
+        
+    </main>
+
+    <script type="text/javascript">
+        /*Função de mudar o celular*/
+        function imgSlider(e){
+            document.querySelector('#phone').src = e;
+        }
+       
+    </script>
+    
+    </body>
+    
+    
+    </html>
+    
+
+
+

@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* list-style: none; */
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body{
+  background-color:#708090;
+}
+header{
+  padding: 20px 70px;
+    background-color:black;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation .logo{
+  width: 50px;
+}
+.navigation1 .logo{
+  width: 20px;
+}
+.navigation ul{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.navigation1 ul{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.navigation ul li a{
+  color:white;
+  font-weight: 600;
+  
+  transition: all 0.5s ease-in-out;
+}
+.navigation ul li a:hover{
+  color: white;
+  border-bottom: 1px solid white;
+}
+.navigation .check{
+  color: white;
+  border-bottom: 0px solid white;
+}
+
+/*Main*/
+
+main section{
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+}
+.main-text img{
+  width: 20rem;
+  margin-bottom: 1vh;
+  
+}
+.main-text h3{
+  color:white;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+
+}
+.main-text p{
+  color: black;
+  margin-bottom: 1.5rem;
+}
+.main-text h6{
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.main-text .btn{
+  padding: 10px 25px;
+  background: black;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+#down   .btn1{
+  padding: 10px 25px;
+  background: black;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+#down2  .btn2{
+  padding: 10px 25px;
+  background: black;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+.main-text .btn:hover{
+  opacity: .85;
+}
+.main-text .text h5{
+  font-size: 1rem;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.main-text .content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.main-text .content span{
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+  cursor: pointer;
+  box-shadow: 1px 1px whitesmoke;
+  transition: all 0.5s;
+}
+.main-text .content span:hover{
+  opacity: .100;
+}
+#NaturalTitanium{
+  background:#808080;
+}
+#BlueTitanium{
+  background:#708090;
+}
+#BlackTitanium{
+  background:#192028;
+}
+#WhiteTitanium{
+  background:#ffffff;
+}
+html{
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: white;
+ } 
+ 
+ #down{
+  margin-top:0%;
+  /* padding-bottom:25%; */
+  padding: 1rem 6rem;
+  
+  
+}
+#down2{
+  margin-top:0%;
+  /* padding-bottom:25%; */
+  padding: 1rem 6rem;
+  
+}
+html{
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+ 
+ #downn {
+  background-color: black;
+  margin-top:0%;
+  padding-bottom:25%;
+  padding: 1rem 6rem;
+}
+#About{
+  padding: 1rem 6rem;
+  line-height: 30px;
+}
+#linespace{
+  line-height: 30px; 
+  padding-bottom: 20px;
+}
+#down2{
+  margin-top:0%;
+  padding-bottom:25%;
+  padding: 1rem 6rem;
+  line-height: 30px;
+
+}
+#F{
+  padding: 1rem 6rem;
+  line-height: 30px;
+
+}
+#F1{
+  padding: 1rem 6rem;
+  line-height: 30px;
+}
+#navigation1{
+  
+  padding: 1rem 6rem;
+  line-height: 30px;
+  display: inline-block;
+  
+}
+.contact-container {
+  text-align: center;
+}
+.social-links a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  
+}
+
+.social-links a:hover {
+  color:black;
+  
+
+  }
+
+
